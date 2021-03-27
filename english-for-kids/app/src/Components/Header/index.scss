@@ -1,0 +1,26 @@
+.navigation__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+
+  & > .xButton {
+    background-color: chocolate;
+    margin-left: 87%;
+    margin-top: 3%;
+  }
+  & > a {
+    display: flex;
+    margin: 5%;
+  }
+}
+
+.xButton {
+  display: flex;
+}
+
+.current {
+  text-decoration: underline !important;
+}

@@ -1,0 +1,44 @@
+.answers {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  height: 40px;
+  overflow-x: hidden;
+  line-height: 36px;
+  font-size: 36px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  margin: 2px;
+  flex-shrink: 0;
+}
+
+.right {
+  background-color: white;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.lose__window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+  .winOrLoseImg {
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+  }
+}

@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(189, 91, 34, 0.733);
+  flex-wrap: wrap;
+  max-width: 1500px;
+  padding: 3%;
+
+  a {
+    color: #00ff0dce;
+    font-size: 1rem;
+  }
+
+  a > img {
+    width: 70%;
+    height: 70%;
+  }
+
+  & > div {
+    color: #dc143c;
+    font-size: 2rem;
+  }
+}
